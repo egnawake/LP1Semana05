@@ -1,0 +1,102 @@
+1.
+NPC
+  Variáveis:
+    Health
+    Name
+    HelloMessage
+  Ações:
+    SayHello
+    Die
+    CastSpell
+
+Automóvel
+  Variáveis:
+    Speed
+    Color
+    Brand
+  Ações:
+    Accelerate
+    Break
+    Honk
+  
+Asteroides
+  Variáveis:
+    Size
+    Speed
+    Rotation
+  Ações:
+    Split
+    Move
+    Rotate
+
+Nave
+  Variáveis:
+    Rotation
+    Acceleration
+    MaxSpeed
+    Speed
+  Ações:
+    Move
+    Shoot
+    Explode
+
+Cronómetro:
+  Variáveis:
+    Time
+    Running
+  Ações:
+    Start
+    Pause
+    Reset
+
+
+2.
+NPC1
+  Health = 50
+  Name = "Bob"
+  HelloMessage = "Hi there, Player!"
+
+NPC2
+  Health = 80
+  Name = "Mary"
+  HelloMessage = "What's up?"
+
+Automovel1
+  Speed = 120.5
+  Color = "red"
+  Brand = "Ford"
+
+Automovel2
+  Speed = 70.0
+  Color = "white"
+  Brand = "Mercedes"
+
+Asteroid1
+  Size = 4
+  Speed = 30.2
+  Rotation = 67
+
+Asteroid2
+  Size = 3
+  Speed = 17.9
+  Rotation = 182
+
+Nave1
+  Rotation = 12
+  Acceleration = 2.5
+  MaxSpeed = 50
+  Speed = 32.5
+
+Nave2
+  Rotation = 231
+  Acceleration = 3
+  MaxSpeed = 60
+  Speed = 18
+
+Cronometro1
+  Time = 360
+  Running = true
+
+Cronometro2
+  Time = 140
+  Running = false
