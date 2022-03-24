@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Diagnostics;
 using System.Threading;
 
@@ -35,6 +35,11 @@ namespace Chronos
             // stop both timers
             cron1.Stop();
             cron2.Stop();
+
+            // print elapsed time
+            Console.WriteLine("Time elapsed");
+            Console.WriteLine($"  cron1: {cron1.ElapsedMilliseconds}ms");
+            Console.WriteLine($"  cron2: {cron2.ElapsedMilliseconds}ms");
         }
     }
 }
