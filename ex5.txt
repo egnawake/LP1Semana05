@@ -1,0 +1,6 @@
+1. Stopwatch
+2. cron1, cron2
+3. Não. As instâncias pertencem à mesma classe.
+4. O estado de objetos Stopwatch inclui o tempo contado e se está parado ou não.
+5. Não diretamente.
+6. O estado é alterado através de métodos no objeto.
