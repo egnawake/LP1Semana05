@@ -1,4 +1,5 @@
 using System;
+using System.Diagnostics;
 
 // ex 4.3. Stopwatch class
 // ---------------
@@ -14,7 +15,9 @@ namespace Chronos
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // declare and instantiate two stopwatches
+            Stopwatch cron1 = new Stopwatch();
+            Stopwatch cron2 = new Stopwatch();
         }
     }
 }
