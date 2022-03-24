@@ -6,6 +6,17 @@ namespace ValuesAndReferences
     {
         private static void Main(string[] args)
         {
+            // prediction...
+            // Original contents:
+            //   x0 = 9
+            //   y0 = [ 2 3 4 ]
+            // After changing x1 and y1 values:
+            //   x0 = 9
+            //   y0 = [ 2 1 4 ]
+            // After changing y1 reference:
+            //   x0 = 9
+            //   y0 = [ 2 1 4 ]
+            
             // Variables
             int x0 = 9;
             int[] y0 = new int[] { 2, 3, 4 };
