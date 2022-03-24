@@ -1,5 +1,6 @@
 using System;
 using System.Diagnostics;
+using System.Threading;
 
 // ex 4.3. Stopwatch class
 // ---------------
@@ -18,6 +19,22 @@ namespace Chronos
             // declare and instantiate two stopwatches
             Stopwatch cron1 = new Stopwatch();
             Stopwatch cron2 = new Stopwatch();
+
+            // start cron1
+            cron1.Start();
+
+            // pause program for 1s
+            Thread.Sleep(1000);
+
+            // start cron2
+            cron2.Start();
+
+            // pause program for 1s
+            Thread.Sleep(1000);
+
+            // stop both timers
+            cron1.Stop();
+            cron2.Stop();
         }
     }
 }
