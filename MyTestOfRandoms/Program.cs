@@ -6,7 +6,9 @@ namespace MyTestOfRandoms
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // ask user for number of dice to roll
+            Console.Write("Enter number of dice to roll: ");
+            int diceToRoll = int.Parse(Console.ReadLine());
         }
     }
 }
